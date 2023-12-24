@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button.girls, button.pinterest, button.copy {
+    background-color: #000;
+    color: #fff;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin: 10px;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #888;
+}
+
+footer p {
+    font-size: 14px;
+}
